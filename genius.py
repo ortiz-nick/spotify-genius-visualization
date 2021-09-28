@@ -21,6 +21,7 @@ for track, artist in trackDetails.items():
   song = genius.search_song(track, artist)
   # print(song.lyrics)
   # song.save_lyrics()
+  #print(len(song.lyrics))
   mycursor = mydb.cursor()
   insert_stmt = (
     "INSERT INTO lyrics (lyrics,trackName,artist) "

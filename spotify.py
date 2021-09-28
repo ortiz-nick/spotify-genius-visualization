@@ -17,7 +17,7 @@ auth_response_data = auth_response.json()
 access_token = auth_response_data['access_token']
 
 headers = {
-    'Authorization': 'Bearer BQD9xiRR8bU1UorGxpkzC_i9YAjOhr8kXydd_tc5bZtQ9r4qNXK_4NVVbtbkurQLNMZLCBWNOxTBdy6dTjJwpnSZ0Kx0-AxOHmOe8mANGf_ByODZfszQ8DQxhUPyFczuFbZ4FvR4yrK-IG0JvFbkeQ'.format(token=access_token)
+    'Authorization': 'Bearer BQCZjEv1AXGSuhME68pLaegB1u-LbPEKf1N-r5Z5eluuNOvoRYNEJzxUOo8QzYm9E_E2JTmsLkqB_C4XEA7FfX3u9XtAGxQ61fdpxFRPqvs5KGKkQUm3g27PsnNSfOMMrV7kHsB9oDUKTe5Z0rS_cg'.format(token=access_token)
 }
 
 # base URL of all Spotify API endpoints
@@ -25,7 +25,7 @@ BASE_URL = 'https://api.spotify.com/v1/'
 
 
 # actual GET request with proper header
-response = requests.get(BASE_URL + 'me/player/recently-played?limit=2', headers=headers)
+response = requests.get(BASE_URL + 'me/player/recently-played?limit=10', headers=headers)
 
 print(response)
 
