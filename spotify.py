@@ -17,7 +17,7 @@ auth_response_data = auth_response.json()
 access_token = auth_response_data['access_token']
 
 headers = {
-    'Authorization': 'Bearer BQCZjEv1AXGSuhME68pLaegB1u-LbPEKf1N-r5Z5eluuNOvoRYNEJzxUOo8QzYm9E_E2JTmsLkqB_C4XEA7FfX3u9XtAGxQ61fdpxFRPqvs5KGKkQUm3g27PsnNSfOMMrV7kHsB9oDUKTe5Z0rS_cg'.format(token=access_token)
+    'Authorization': 'Bearer BQCPnQEkqIwKQqsS3OhCyKYrnqsvgEjC13DKSX-BEKcbX6CZX90kRIqsb8XlSgVIpAeTwsbnI3ZU1bqqzAAQ0RrcQYaHkFvAt5X-LYugh4fCnnMfTyRKlZFrHRdIq4D9R6PMOpLJnxK9Fcc8_wKDdw'.format(token=access_token)
 }
 
 # base URL of all Spotify API endpoints

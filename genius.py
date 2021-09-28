@@ -23,10 +23,12 @@ for track, artist in trackDetails.items():
   # song.save_lyrics()
   #print(len(song.lyrics))
   mycursor = mydb.cursor()
+
   insert_stmt = (
     "INSERT INTO lyrics (lyrics,trackName,artist) "
     "VALUES (%s,%s,%s)"
   )
+  
   data = (song.lyrics,track,artist)
   mycursor.execute(insert_stmt, data)
   mydb.commit() 

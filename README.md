@@ -15,3 +15,8 @@ Utilize the Spotify API to pull your recently listened to songs (up to 50).  The
   <li>0.0.1</li>
 		<ul>Work in progress<ul>
 </ul>
+
+<h2>Mental Notes</h2>
+<ul>
+  <li>Add logic for lyrics that exceed lyric column limit</li>
+</ul>
